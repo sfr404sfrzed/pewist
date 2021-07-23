@@ -2,7 +2,7 @@ import requests , time
 import os
 from json import dumps
 r = requests.session()
-os.system("rm -rf .unfollow.py")
+os.system("rm -rf .unchat.py")
 joker = "2"
 print('aw insta daxlka ka atawet \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 user = input("\n user : ")
