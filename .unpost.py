@@ -4,9 +4,9 @@ from json import dumps
 r = requests.session()
 os.system("rm -rf .unpost.py")
 joker = "3"
-print('aw insta daxlka ka atawet \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-user = input("\n user : ")
-pess = input(" pass : ")
+print('    aw insta daxlka ka atawet \n    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+user = input("\n    user : ")
+pess = input("    pass : ")
 def deletSEVE():
 	def poSF():
 		global iid , sis
@@ -167,7 +167,7 @@ def post():
 		
 		dl = r.post(urDP,headers=hedDP)
 		if '"status":"ok"' in dl.text:
-			print(f'     Deleted [ id post > {iid}]')
+			print(f'    Deleted [ id post > {iid}]')
 		else:
 			print('    You have been banned !')
 	def usID():
