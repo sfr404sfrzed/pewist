@@ -233,7 +233,7 @@ def folloing():
 		if '"status":"ok"' in don.text:
 			print(f'    Deleted username >> {foNM}')
 		elif 'Please' in don.text:
-			print(' band bwy kate tr ama bka !')
+			print('    band bwy kate tr ama bka !')
 		else:
 			print('error !')
 	def userID():
