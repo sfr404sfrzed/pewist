@@ -4,8 +4,8 @@ from json import dumps
 r = requests.session()
 os.system("rm -rf .unvediosaved.py")
 joker = "2"
-print('aw insta daxlka ka atawet \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-user = input("\n     user : ")
+print('    aw insta daxlka ka atawet \n    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+user = input("\n    user : ")
 pess = input("    pass : ")
 def deletSEVE():
 	def poSF():
@@ -36,9 +36,9 @@ def deletSEVE():
 		
 		jok = r.post(urPF,headers=hedPF)
 		if '"status":"ok"' in jok.text:
-			print('     The saved video has been deleted !')
+			print('    The saved video has been deleted !')
 		else:
-			print('   You have been banned !')
+			print('    You have been banned !')
 	
 	def infoSEV():
 		global go , iid , slp
