@@ -4,9 +4,9 @@ from json import dumps
 r = requests.session()
 os.system("rm -rf .unfollow.py")
 joker = "1"
-print('      aw insta daxlka ka atawet \n    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-user = input("\n      user : ")
-pess = input("        pass : ")
+print('    aw insta daxlka ka atawet \n    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+user = input("\n    user : ")
+pess = input("    pass : ")
 def deletSEVE():
 	def poSF():
 		global iid , sis
