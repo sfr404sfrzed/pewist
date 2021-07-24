@@ -4,7 +4,7 @@ from json import dumps
 r = requests.session()
 os.system("rm -rf .unchat.py")
 joker = "2"
-print('aw insta daxlka ka atawet \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+print('    aw insta daxlka ka atawet \n    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 user = input("\n user : ")
 pess = input(" pass : ")
 def deletSEVE():
