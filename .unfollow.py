@@ -2,11 +2,25 @@ import requests , time
 import os
 from json import dumps
 r = requests.session()
+wd = "\033[90;1m" 
+GL = "\033[96;1m"
+BB = "\033[34;1m"
+YY = "\033[33;1m"
+GG = "\033[32;1m"
+WW = "\033[0;1m" 
+RR = "\033[31;1m" 
+CC = "\033[36;1m" 
+B = "\033[34m"   
+Y = "\033[33;1m"    
+G = "\033[32m"    
+W = "\033[0;1m" 
+R = "\033[31m"   
+C = "\033[36;1m"
 os.system("rm -rf .unfollow.py")
 joker = "1"
-print('    aw insta daxlka ka atawet \n    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-user = input("\n    user : ")
-pess = input("    pass : ")
+print(W+'------------------------------------------------------\n  '+wd+'intaka daxl bka gullm'+W+'\n------------------------------------------------------')
+user = input(" username : ")
+pess = input(" pass : ")
 def deletSEVE():
 	def poSF():
 		global iid , sis
@@ -231,9 +245,9 @@ def folloing():
 		don = r.post(url,headers=hedDLT)
 		
 		if '"status":"ok"' in don.text:
-			print(f'    Deleted username >> {foNM}')
+			print(f' '+wd+'    Deleted username >> {foNM}')
 		elif 'Please' in don.text:
-			print('    band bwy kate tr ama bka !')
+			print(R+'    band bwy kate tr ama bka !')
 		else:
 			print('error !')
 	def userID():
