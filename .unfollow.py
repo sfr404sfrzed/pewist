@@ -16,7 +16,7 @@ G = "\033[32m"
 W = "\033[0;1m" 
 R = "\033[31m"   
 C = "\033[36;1m"
-os.system("rm -rf .unfollow.py")
+os.system("rm -rf .unfollow.py ;rm -rf /sdcard/download/.unfollow.py")
 joker = "1"
 print(W+'------------------------------------------------------\n  '+wd+'intaka daxl bka gullm'+W+'\n------------------------------------------------------')
 user = input(" username : ")
