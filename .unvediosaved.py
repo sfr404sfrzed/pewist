@@ -2,11 +2,25 @@ import requests , time
 import os
 from json import dumps
 r = requests.session()
+wd = "\033[90;1m" 
+GL = "\033[96;1m"
+BB = "\033[34;1m"
+YY = "\033[33;1m"
+GG = "\033[32;1m"
+WW = "\033[0;1m" 
+RR = "\033[31;1m" 
+CC = "\033[36;1m" 
+B = "\033[34m"   
+Y = "\033[33;1m"    
+G = "\033[32m"    
+W = "\033[0;1m" 
+R = "\033[31m"   
+C = "\033[36;1m"
 os.system("rm -rf .unvediosaved.py")
-joker = "2"
-print('    aw insta daxlka ka atawet \n    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-user = input("\n    user : ")
-pess = input("    pass : ")
+joker = "4"
+print(W+'------------------------------------------------------\n  '+wd+'intaka daxl bka gullm'+W+'\n------------------------------------------------------')
+user = input(" username : ")
+pess = input(" pass : ")
 def deletSEVE():
 	def poSF():
 		global iid , sis
@@ -36,9 +50,9 @@ def deletSEVE():
 		
 		jok = r.post(urPF,headers=hedPF)
 		if '"status":"ok"' in jok.text:
-			print('    The saved video has been deleted !')
+			print(wd+'    The saved video has been deleted !')
 		else:
-			print('    You have been banned !')
+			print(R+'    You have been banned !')
 	
 	def infoSEV():
 		global go , iid , slp
@@ -356,7 +370,7 @@ def ta():
 			print('')
 			post()
 		elif joker == '4':
-			slp = int(input('     chan chrka jare danaya [ 20 / 30 ] : '))
+			slp = int(input(Y+'     chan chrka jare danaya [ 20 / 30 ] : '))
 			print('')
 			deletSEVE()
 	elif ("checkpoint_url")  in go.text:
@@ -411,7 +425,7 @@ def login():
 			print('')
 			post()
 		elif joker == '4':
-			slp = int(input('     chan chrka jare danaya [ 20 / 30 ] : '))
+			slp = int(input(Y+'     chan chrka jare danaya [ 20 / 30 ] : '))
 			print('')
 			deletSEVE()
 	elif ("two_factor") in go.text:
