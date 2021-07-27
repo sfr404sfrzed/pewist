@@ -417,7 +417,7 @@ def login():
 			print('')
 			folloing()
 		elif joker == '2':
-			slp = int(input('     chan chrka jare danaya [ 20 / 30 ] : '))
+			slp = int(input(Y+'     chan chrka jare danaya [ 20 / 30 ] : '))
 			print('')
 			chatMS()
 		elif joker == '3':
