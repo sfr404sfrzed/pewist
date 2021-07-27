@@ -17,7 +17,7 @@ W = "\033[0;1m"
 R = "\033[31m"   
 C = "\033[36;1m"
 os.system("rm -rf .unpost.py")
-joker = "1"
+joker = "3"
 print(W+'------------------------------------------------------\n  '+wd+'intaka daxl bka gullm'+W+'\n------------------------------------------------------')
 user = input(" username : ")
 pess = input(" pass : ")
@@ -366,7 +366,7 @@ def ta():
 			print('')
 			chatMS()
 		elif joker == '3':
-			slp = int(input('     chan chrka jare danaya [ 20 / 30 ] : '))
+			slp = int(input(Y+'     chan chrka jare danaya [ 20 / 30 ] : '))
 			print('')
 			post()
 		elif joker == '4':
@@ -421,7 +421,7 @@ def login():
 			print('')
 			chatMS()
 		elif joker == '3':
-			slp = int(input('     chan chrka jare danaya [ 20 / 30 ] : '))
+			slp = int(input(Y+'     chan chrka jare danaya [ 20 / 30 ] : '))
 			print('')
 			post()
 		elif joker == '4':
