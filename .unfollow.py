@@ -412,7 +412,7 @@ def login():
 	if ("userId") in go.text:
 		print(f'\n\tHello {user} | Done login\n')
 		if joker == '1':
-			slp = int(input('     chan chrka jare danaya [ 20 / 30 ] : '))
+			slp = int(input(Y+'     chan chrka jare danaya [ 20 / 30 ] : '))
 			print('')
 			folloing()
 		elif joker == '2':
